@@ -46,4 +46,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 # You can create an account and verify it by ensuring you enter the same password. If the passwords do not match, you will receive an error message.
 ![2023-05-19 (3)](https://github.com/caiomelotec/movie-list-crud-with-React-and-Firebase/assets/74388750/22ba50ae-98e9-484d-9be5-383d422792e5)
 
+# Beautiful animations are displayed when you hover over elements, and there are interactive buttons with animations to engage with. Check the website for more.
+![2023-05-19 (3)](https://github.com/caiomelotec/movie-list-crud-with-React-and-Firebase/assets/74388750/6f8da692-6c8a-4477-bbd4-01efabeee923)
+
 # You can interact with the demo by clicking on the following link: https://movies-crud-b5aa3.web.app/
