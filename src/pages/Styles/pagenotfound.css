@@ -1,0 +1,138 @@
+/* Fade-in animation */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  animation: fade-in 2s forwards;
+}
+
+/* responsive */
+@media screen and (max-width: 668px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Shake animation */
+.back-to-btn {
+  background: #3d3dcd;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 22px;
+  border-radius: 8px;
+  margin-top: 10px;
+  animation: shake 0.7s ease-in-out 0.5s both;
+  cursor: pointer;
+}
+
+/* responsive */
+@media screen and (max-width: 668px) {
+  .back-to-btn {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(-10px);
+  }
+
+  20% {
+    transform: translateX(10px);
+  }
+
+  30% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  60% {
+    transform: translateX(10px);
+  }
+
+  70% {
+    transform: translateX(-10px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  90% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+/* H1 ANIMATION */
+.h1-404 {
+  font-size: 100px;
+  animation: bounce 0.5s infinite alternate;
+  vertical-align: middle;
+}
+
+/* responsive */
+@media screen and (max-width: 668px) {
+  .h1-404 {
+    font-size: 60px;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+
+/* icon */
+
+.icon {
+  display: inline-block;
+  animation: rotate 2s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

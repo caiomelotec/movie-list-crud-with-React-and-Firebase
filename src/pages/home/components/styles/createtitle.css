@@ -1,0 +1,72 @@
+.create-title-btn {
+  padding: 5px 25px;
+  font-size: 18px;
+  background-color: rgb(49, 49, 222);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.create-title-btn:hover {
+  padding: 2px 22px;
+  border: solid 3px rgb(49, 49, 222);
+  background-color: white;
+  color: rgb(49, 49, 222);
+  font-weight: 600;
+}
+
+
+@media (max-width: 1600px) {
+  .container-ct {
+    flex-wrap: wrap;
+  }
+
+  .release-date-ipt,
+  .movie-title-input,
+  .div-checkbox {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-ct {
+    flex-wrap: wrap;
+  }
+
+  .release-date-ipt,
+  .movie-title-input,
+  .div-checkbox {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-ct {
+    flex-wrap: wrap;
+  }
+
+  .release-date-ipt,
+  .movie-title-input,
+  .div-checkbox {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-ct {
+    min-width: 13rem;
+  }
+
+  .release-date-ipt,
+  .movie-title-input,
+  .div-checkbox {
+    width: 90%;
+  }
+}
+
+.movie-title {
+  margin-bottom: 1rem;
+}

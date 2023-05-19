@@ -1,0 +1,102 @@
+.login-container {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  max-width: 450px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    min-width: 20rem;
+    left: 60%;
+  }
+}
+
+.btns button,
+.form-email input {
+  margin: 10px 0;
+}
+
+.input-password,
+.input-email {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.btn-login {
+  width: 80%;
+  height: 50px;
+  color: white;
+  background: rgb(73, 97, 230);
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.google-btn {
+  color: white;
+  background: black;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.icon-googles {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.btns button {
+  display: block;
+  cursor: pointer;
+}
+
+.underline-link {
+  text-decoration: none;
+  color: black;
+}
+
+.underline-link u {
+  cursor: pointer;
+}
+
+/* animations */
+.btn-login {
+  /* ... */
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-login:hover {
+  transform: scale(1.05);
+}
+
+
+/* google icon animation */
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.icon-googles {
+  /* ... */
+  animation: bounce 0.5s infinite ease-in-out;
+}
+
+/* container animations */

@@ -1,0 +1,19 @@
+.img-container {
+  background-image: url(https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+  width: 60%;
+  height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+  .img-container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .img-container {
+    background-image: none;
+  }
+}

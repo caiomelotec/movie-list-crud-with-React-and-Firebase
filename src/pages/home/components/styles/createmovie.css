@@ -1,0 +1,100 @@
+.container-ct {
+  display: flex;
+  margin: 2rem auto;
+  width: 65%;
+  border: solid 2px rgb(198, 197, 197);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.submit-movie-btn {
+  padding: 5px 25px;
+  font-size: 18px;
+  background-color: rgb(49, 49, 222);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+  margin-left: 0.5rem;
+}
+
+.submit-movie-btn:hover {
+  padding: 2px 22px;
+  border: solid 3px rgb(49, 49, 222);
+  background-color: white;
+  color: rgb(49, 49, 222);
+  font-weight: 600;
+}
+
+.div-checkbox {
+  display: inline-block;
+  margin-right: 0.5rem;
+  border: solid 2px rgb(206, 206, 206);
+  padding: 5px 25px;
+  border-radius: 8px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.div-checkbox:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.label-checkbox {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+}
+
+.movie-title-input {
+  margin: 0 0.5rem;
+  border: solid 2px rgb(206, 206, 206);
+  padding: 5px 25px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.movie-title-input:hover {
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.release-date-ipt {
+  border: solid 2px rgb(206, 206, 206);
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.release-date-ipt:hover {
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 2px solid rgb(206, 206, 206);
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 0.6rem;
+  border-radius: 8px;
+  transition: box-shadow 0.4s ease-in-out;
+  font-size: 17px;
+}
+
+.custom-file-upload:hover {
+  background-color: #dbdbdb;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
