@@ -43,5 +43,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 # You can login with email and password or with google.
 ![2023-05-19](https://github.com/caiomelotec/movie-list-crud-with-React-and-Firebase/assets/74388750/8a9c17e1-3577-4a7e-b6a8-566a890d20c4)
 
+#You can create an account and verify it by ensuring you enter the same password. If the passwords do not match, you will receive an error message.
+![2023-05-19 (3)](https://github.com/caiomelotec/movie-list-crud-with-React-and-Firebase/assets/74388750/22ba50ae-98e9-484d-9be5-383d422792e5)
 
 # You can interact with the demo by clicking on the following link: https://movies-crud-b5aa3.web.app/
